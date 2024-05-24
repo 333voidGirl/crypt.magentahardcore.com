@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Blackletter";
-    src: url("https://magentahardcore.com/imgsAssets/fonts/VladTepesII_Vlads-Dad_.woff") format('woff');
+    src: url("https://magentahardcore.com/imgsAssets/fonts/TexturaLiberaX-Black.woff") format('woff');
 }
 
 @font-face {
@@ -30,23 +30,32 @@ hr.footer{
 
 body{
     background: #000000;
-    background-image: url("/imgsAssets/cryptBG.png");
-    background-repeat: repeat-y;
-    background-position: top;
+    background-image: url("/imgsAssets/cryptleft.png"), url("/imgsAssets/cryptright.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left, right;
     font-family: IBM;
+    font-size: 16px;
     color: #9000ff;
     max-width: 900px;
     margin: auto;
 }
 
+@media (max-width: 1200px) {
+    body {
+        background-image: none;
+    }
+}
+
 a{
     text-decoration: none;
-    color: #ff7e00;
+    color: #f77e00;
 }
 
 a:hover {
     padding: 1px;
-    border: 1px solid #ff7e00;
+    border: 1px solid #f77e00;
 }
 
 ul{
@@ -60,7 +69,6 @@ h3,
 h4,
 h5,
 h6{
-    line-height: 10px;
     color: #0000ff;
 }
 
@@ -81,7 +89,6 @@ pre{
     font-size: 70px;
 /*    padding-bottom: 50px; */
     text-align: left;
-    line-height: 1;
 }
 
 .subtitle {
