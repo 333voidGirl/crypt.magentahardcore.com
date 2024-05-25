@@ -192,3 +192,7 @@ pre{
   background: #9000ff; /* Gecko Browsers */
   color: black;
 }
+
+* {
+     cursor: url("/imgsAssets/cursor1.png"),  auto;
+}
