@@ -173,6 +173,10 @@ pre{
     color: #e371a4;
 }
 
+.note {
+  color: #a3ff00;
+}
+
 #preamble {
     padding-bottom: 10px;
 }
