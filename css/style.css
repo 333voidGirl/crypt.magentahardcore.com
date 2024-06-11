@@ -173,6 +173,11 @@ pre{
     color: #e371a4;
 }
 
+.center {
+  text-align: center;
+  align-items: center;
+}
+
 .note {
   color: #a3ff00;
 }
