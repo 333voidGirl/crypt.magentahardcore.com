@@ -31,7 +31,7 @@ hr.footer{
 body{
     background: #000000;
     background-image: url("/imgsAssets/cryptleft.png"), url("/imgsAssets/cryptright.png");
-    background-size: 90%;
+    background-size: 81%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left, right;
@@ -42,7 +42,7 @@ body{
     margin: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     body {
         background-image: none;
     }
