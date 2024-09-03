@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Blackletter";
+    font-family: "TexturaLiberaXBlack";
     src: url("https://magentahardcore.com/imgsAssets/fonts/TexturaLiberaX-Black.woff") format('woff');
 }
 
@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: "Bamum";
-  src: url("https://magentahardcore.com/imgsAssets/fonts/bamum.woff") format('woff');
+  font-family: "Astloch";
+  src: url("https://magentahardcore.com/imgsAssets/fonts/astloch.bold.ttf") format('woff');
 }
 
 .aligncenter {
@@ -63,13 +63,14 @@ ul{
     padding-left: 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
+h1{
     color: #0000ff;
+}
+
+h2{
+  font-family: Astloch;
+  font-size: 18px;
+  color: #f20587;
 }
 
 pre{
@@ -85,14 +86,14 @@ pre{
 }
 
 .title{
-    font-family: Blackletter;
+    font-family: TexturaLiberaXBlack;
     font-size: 70px;
 /*    padding-bottom: 50px; */
     text-align: left;
 }
 
 .subtitle {
-    font-family: "Bamum";
+    font-family: "Astloch";
     text-align: left;
     font-size: 30px;
     padding-bottom: 10px;
@@ -109,12 +110,12 @@ pre{
     padding-bottom: 9px;
     font-size: 54px;
     color: #0000ff;
-    font-family: Blackletter;
+    font-family: TexturaLiberaXBlack;
 }
 
 .header .header-subheading{
     color: #0000ff;
-    font-family: Bamum;
+    font-family: Astloch;
 }
 
 .header-subheading {
