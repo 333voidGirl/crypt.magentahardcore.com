@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: "Content";
-    src: url("/imgsAssets/fonts/JANCIENT.TTF");
+    src: url("https://magentahardcore.com/imgsAssets/fonts/JANCIENT.ttf");
   }
 
 .aligncenter {
@@ -35,8 +35,8 @@ hr.footer{
 
 body{
     background: #000000;
-    background-image: url("/imgsAssets/cryptleft.png"), url("/imgsAssets/cryptright.png");
-    background-size: 81%;
+    background-image: url("/imgsAssets/leftborder.svg"), url("/imgsAssets/rightborder.svg");
+    background-size: 18%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left, right;
@@ -74,7 +74,7 @@ h1{
 
 h2{
   font-family: Astloch;
-  font-size: 20px;
+  font-size: 1.2em;
   color: #e50067;
 }
 
@@ -113,7 +113,7 @@ pre{
 .header .header-heading{
     padding-top: 45px;
     padding-bottom: 9px;
-    font-size: 54px;
+    font-size: 3.6em;
     color: #0000ff;
     font-family: TexturaLiberaXBlack;
 }
@@ -162,6 +162,8 @@ pre{
     margin: auto auto 0 auto;
 }
 
+.footdef  { margin-bottom: 1em; }
+
 .footer .footer-meta{
     position: fixed;
     font-size: 13px;
@@ -192,8 +194,7 @@ pre{
 }
 
 #logo {
-    height: 118px;
-    width: 111px;
+    height:12em;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
 }
@@ -208,8 +209,8 @@ pre{
 }
 
 .emoji {
-  width: 18px;
-  height: 18px;
+  width: 1em;
+  height: 1em;
 }
 
 * {
