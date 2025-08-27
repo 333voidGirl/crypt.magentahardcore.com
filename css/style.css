@@ -2,114 +2,101 @@
     font-family: "TexturaLiberaXBlack";
     src: url("https://magentahardcore.com/imgsAssets/fonts/TexturaLiberaX-Black.woff");
 }
-
 @font-face {
     font-family: "IBM";
     src: url("https://magentahardcore.com/imgsAssets/fonts/ibm.woff");
 }
-
 @font-face {
   font-family: "Astloch";
   src: url("https://magentahardcore.com/imgsAssets/fonts/astloch.bold.ttf");
 }
-
 @font-face {
     font-family: "Content";
     src: url("https://magentahardcore.com/imgsAssets/fonts/JANCIENT.ttf");
   }
-
 .aligncenter {
     text-align: center;
 }
-
 hr{
     color: #0000ff;
     border: 1px solid;
     border-color: #0000ff;
     margin: 1%;
 }
-
 hr.footer{
     margin: auto 100px
 }
-
 body{
     background: #000000;
-    background-image: url("/imgsAssets/leftborder.svg"), url("/imgsAssets/rightborder.svg");
-    background-size: 18%;
-    background-repeat: no-repeat;
+    background-image: url("/imgsAssets/leftborder.svg"), url("/imgsAssets/rightborder.svg"), url("/imgsAssets/var/sptrps_wb_drk.gif");
+    background-size: 18%, 18%, 250px;
+    background-repeat: no-repeat, no-repeat, repeat;
     background-attachment: fixed;
-    background-position: left, right;
+    background-position: left, right, center;
     font-family: IBM;
-    font-size: 18px;
-    color: #9000ff;
+    font-size: 1em;
+    color: #d15cff;
     max-width: 1200px;
     margin: auto;
 }
-
 @media (max-width: 1800px) {
     body {
-        background-image: none;
+        background-image: url("/imgsAssets/var/sptrps_wb-drk.gif");
+        background-size: 250px;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 }
-
 a{
     text-decoration: none;
     color: #f77e00;
 }
-
 a:hover {
     padding: 1px;
     border: 1px solid #f77e00;
 }
-
 ul{
     list-style-type: none;
     padding-left: 0px;
 }
-
 h1{
     color: #0000ff;
 }
-
 h2{
   font-family: Astloch;
   font-size: 1.2em;
   color: #e50067;
 }
-
+h3{
+    color: #9000ff;
+}
 pre{
     background: black;
 }
-
 .back{
   text-align: right;
 }
-
 .src .example{
     background: black;
 }
-
 .title{
     font-family: TexturaLiberaXBlack;
     font-size: 70px;
 /*    padding-bottom: 50px; */
     text-align: left;
 }
-
 .subtitle {
     font-family: "Astloch";
     text-align: left;
     font-size: 30px;
     padding-bottom: 10px;
 }
-
 .header{
     line-height: 1em;
     display: flex;
     flex-flow: row;
 }
-
 .header .header-heading{
     padding-top: 45px;
     padding-bottom: 9px;
@@ -117,22 +104,18 @@ pre{
     color: #0000ff;
     font-family: TexturaLiberaXBlack;
 }
-
 .header .header-subheading{
     color: #0000ff;
     font-family: Astloch;
 }
-
 .header-subheading {
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .site-title {
     display: flex;
     flex-flow: column;
 }
-
 .site-logo {
     display: flex;
     margin-left: auto;
@@ -140,19 +123,16 @@ pre{
     text-align: right;
     font-size: 13px;
 }
-
 @media (max-width: 800px) {
     .header {
         flex-flow: column;
     }
 }
-
 .wrapper {
     display: flex;
     flex-flow: column;
     height: 72vh;
 }
-
 .footer{
     display: flex;
     color: #ffffff;
@@ -161,44 +141,37 @@ pre{
     align-items: center;
     margin: auto auto 0 auto;
 }
-
-.footdef  { margin-bottom: 1em; }
-
+.footdef  { 
+    margin-bottom: 1em; 
+}
 .footer .footer-meta{
     position: fixed;
     font-size: 13px;
     bottom: 5%;
 }
-
 .footer .footer-img{
     position: fixed;
     bottom: 0%;
 }
-
 .content {
     font-family: Content;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
-
 .center {
   text-align: center;
   align-items: center;
 }
-
 .note {
   color: #a3ff00;
 }
-
 #preamble {
     padding-bottom: 10px;
 }
-
 #logo {
     height:12em;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
 }
-
 ::selection {
   background: #9000ff; /* WebKit/Blink Browsers */
   color: black;
@@ -207,12 +180,13 @@ pre{
   background: #9000ff; /* Gecko Browsers */
   color: black;
 }
-
 .emoji {
   width: 1em;
   height: 1em;
 }
-
 * {
-     cursor: url("/imgsAssets/cursor1.png"),  auto;
+     cursor: url("/imgsAssets/cursor.png"),  auto;
+}
+a, a:link, button {
+  cursor:url("/imgsAssets/cursor_hover.png"), auto;
 }
